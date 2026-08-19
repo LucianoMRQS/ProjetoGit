@@ -22,3 +22,8 @@ Sobrescrevendo o respositório principal
 
     git checkout main                           Acessa uma branch específica, neste exemplo a main.
     git merge criando-ramificacao               A partir da main, sobrescreve os novos dados na branch principal.
+                                                Isso exige que você crie uma mensagem para o merge.
+                                                    i : insert
+                                                    ESC : termina o insert
+                                                    :x : salva
+                                                    ENTER

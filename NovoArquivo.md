@@ -1,0 +1,1 @@
+Testando a criação de um novo arquivo na branch main, enquanto temos uma branch secundária aberta.

@@ -11,6 +11,7 @@ Manipulando o repositório:
     git add <file_name ou .>                    Prepara a branch com um arquivo específico (file_name) ou todos (.).
     git restore --staged <file_name ou .>       Remove da branch, um arquivo específico (file_name) ou todos (.)
     git commit -m "Rótulo de versionamento"     Cria o commit da branch e o rótulo da versão.
+    git commit --amend -m "Novo rótulo"         Se feito antes do push, altera o rótulo do último commit.
     git push origin main                        Envia os dados para o repositório no Github.
     git status                                  Retorna o resumo do status após cada comando.
 
@@ -27,3 +28,9 @@ Sobrescrevendo o respositório principal
                                                     ESC : termina o insert
                                                     :x : salva
                                                     ENTER
+
+Auditando o respositório
+
+    git log                                     Retorna as logs com cada commit realizado.
+                                                Teclas up/down ou j/k : rolagem dos logs.
+                                                q : sair do log

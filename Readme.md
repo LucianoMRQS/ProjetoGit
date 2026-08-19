@@ -11,6 +11,14 @@ Manipulando o repositório:
     git add <file_name ou .>                    Prepara a branch com um arquivo específico (file_name) ou todos (.).
     git restore --staged <file_name ou .>       Remove da branch, um arquivo específico (file_name) ou todos (.)
     git commit -m "Rótulo de versionamento"     Cria o commit da branch e o rótulo da versão.
-    git push origin main                        Envia os dados para o repositório do Github.
+    git push origin main                        Envia os dados para o repositório no Github.
     git status                                  Retorna o resumo do status após cada comando.
-    git checkout -b "criando-ramificacao"       Cria uma nova branch.
+
+Ramificando o repositório
+
+    git checkout -b "criando-ramificacao"       Cria uma nova branch chamada "criando-ramificacao".
+
+Sobrescrevendo o respositório principal
+
+    git checkout main                           Acessa uma branch específica, neste exemplo a main.
+    git merge criando-ramificacao               A partir da main, sobrescreve os novos dados na branch principal.

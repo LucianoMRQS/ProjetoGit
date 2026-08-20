@@ -29,5 +29,5 @@ Comandos Em Estudo
     
         git rebase main — Aplica seus commits do topo da branch main, mantendo o histórico de commits linear e limpo.
 
-    Linha de teste
+    Linha de teste 2
     Segunda linha de teste

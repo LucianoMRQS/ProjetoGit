@@ -28,3 +28,5 @@ Comandos Em Estudo
     Reorganizando Histórico:
     
         git rebase main — Aplica seus commits do topo da branch main, mantendo o histórico de commits linear e limpo.
+
+    Linha de teste

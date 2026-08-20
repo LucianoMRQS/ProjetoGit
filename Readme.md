@@ -35,7 +35,7 @@ Auditando o repositório:
                                                 q : sair do log
     git log -1 --oneline                    Exibe apenas o último commit em formato resumido de uma linha.
 
-Comandos Por Estudar
+Comandos Em Estudo
 
     Obtendo e Atualizando Código (Essencial em Equipe):
     

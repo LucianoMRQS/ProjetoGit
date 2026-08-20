@@ -1,46 +1,9 @@
-Criando o repositório:
-
-    git init                                Inicializa o repositório local.
-    git branch -M "main"                    Altera o nome da branch principal para main.
-    git remote add origin <github_url>      Conecta o repositório local ao GitHub.
-    git push -u origin main                 Sincroniza os repositórios web e local, e define o rastreamento padrão.
-    clear                                   Limpa a tela do terminal.
-
-Manipulando o repositório:
-
-    git add <file_name ou .>                Prepara arquivos específicos ou todos para o commit (Staging Area).
-    git restore --staged <file_name ou .>   Remove arquivos da Staging Area mantendo as alterações no código.
-    git commit -m "Mensagem"                Salva o estado dos arquivos em staging com um rótulo no histórico.
-    git commit --amend -m "Nova mensagem"   Altera a mensagem ou conteúdo do último commit (se não executado push).
-    git push origin main                    Envia os dados da branch local para o repositório remoto.
-    git status                              Exibe o estado atual do repositório.
-
-Ramificando e Navegando:
-
-    git checkout -b "nova-branch"           Cria e alterna imediatamente para uma nova branch.
-    git checkout main                       Alterna para a branch principal (main).
-
-Integrando alterações:
-
-    git merge criando-ramificacao           Une o histórico da branch informada dentro da branch atual.
-                                                i : insert
-                                                ESC : termina o insert
-                                                :x : salva
-                                                ENTER
-
-Auditando o repositório:
-
-    git log                                 Exibe o histórico detalhado de commits com rolagem.
-                                                Teclas up/down ou j/k : rolagem dos logs.
-                                                q : sair do log
-    git log -1 --oneline                    Exibe apenas o último commit em formato resumido de uma linha.
-
 Comandos Em Estudo
 
     Obtendo e Atualizando Código (Essencial em Equipe):
     
         git clone <github_url>              Clona um repositório web para a sua máquina local.
-        git pull origin <branch>            Baixa e aplica automaticamente no seu código as alterações do servidor remoto.
+        git pull origin <branch>            Baixa o dados do repositório web para o local.
         git fetch                           Baixa o histórico remoto sem alterar seu o local, permitindo ver mudanças antes de unificar.
     
     Navegação Moderna de Branches:

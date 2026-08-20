@@ -39,7 +39,7 @@ Comandos Por Estudar
 
     Obtendo e Atualizando Código (Essencial em Equipe):
     
-        git clone <github_url>              Clona um repositório existente na nuvem para a sua máquina local.
+        git clone <github_url>              Clona um repositório web para a sua máquina local.
         git pull origin <branch>            Baixa e aplica automaticamente no seu código as alterações do servidor remoto.
         git fetch                           Baixa o histórico remoto sem alterar seu o local, permitindo ver mudanças antes de unificar.
     

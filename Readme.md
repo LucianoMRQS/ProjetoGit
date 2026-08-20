@@ -2,8 +2,7 @@ Comandos Em Estudo
 
     Obtendo e Atualizando Código (Essencial em Equipe):
     
-        git clone <github_url>              Clona um repositório web para a sua máquina local.
-        git pull origin <branch>            Baixa o dados do repositório web para o local.
+
         git fetch                           Baixa o histórico remoto sem alterar seu o local, permitindo ver mudanças antes de unificar.
     
     Navegação Moderna de Branches:
